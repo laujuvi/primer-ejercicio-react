@@ -2,10 +2,27 @@
   text-align: center;
 }
 .content{
-  display: flex;                       /* establish flex container */
-  flex-wrap: wrap;                     /* enable flex items to wrap */
+  margin: 0 auto;
+  max-width: 1500px;
+  min-width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5px;
+  
 }
-.box{
 
+.select-boxes{
+  position: relative;
+  right: 0px ;
 }
 
+@media (max-width: 800px){
+.content{
+  margin: 0 auto;
+  max-width:none;
+  min-width: none;
+  display: grid;
+  grid-template-columns: 100%;
+  gap: 5px;
+}
+}
