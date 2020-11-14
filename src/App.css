@@ -5,9 +5,12 @@
   margin: 0 auto;
   max-width: 1500px;
   min-width: 300px;
+}
+.content-grid{
+
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  gap: 5px;
+  gap: 40px;
   
 }
 
@@ -16,13 +19,19 @@
   right: 0px ;
 }
 
-@media (max-width: 800px){
-.content{
+@media (max-width: 700px){
+.content-grid{
   margin: 0 auto;
   max-width:none;
   min-width: none;
   display: grid;
   grid-template-columns: 100%;
-  gap: 5px;
+}
+
+
+.content{
+  margin: 0 auto;
+  max-width: 450px;
+
 }
 }
