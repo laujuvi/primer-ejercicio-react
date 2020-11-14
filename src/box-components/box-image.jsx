@@ -8,7 +8,7 @@ class BoxImage extends React.Component {
     }
     render() {
         return (
-                <img src={this.state.url} alt="DogDeveloper"></img>
+                <svg src={this.state.url} alt="DogDeveloper"></svg>
         )
     }
 }
