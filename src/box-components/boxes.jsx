@@ -1,5 +1,4 @@
 import React from 'react';
-import '../box-components/box-style/box-image.css'
 import { Box } from './box'
 import boxData from '../data/box-data.json'
 

@@ -4,6 +4,7 @@ import { BoxVolanta } from './box-volanta'
 import { BoxTitle } from './box-title'
 import { BoxAuthor } from './box-author'
 import '../box-components/box-style/box.css'
+import '../box-components/box-style/box-text.css'
 
 
 class Box extends React.Component {
@@ -23,7 +24,7 @@ class Box extends React.Component {
         <div className="box-img">
           <BoxImage url={this.state.url}></BoxImage>
         </div>
-        <div>
+        <div className="box-text">
           <BoxVolanta volanta={this.state.volanta}></BoxVolanta>
           <BoxTitle title={this.state.title}></BoxTitle>
           <div><b><BoxAuthor author={this.state.author}></BoxAuthor></b></div>

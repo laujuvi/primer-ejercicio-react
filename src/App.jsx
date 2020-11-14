@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import './App.css';
-import { BoxDisplay } from './box-components/box-controller/box-display'
 import { HeaderTitle } from './header-boxes/header-boxes'
 import { Boxes } from './box-components/boxes'
 import headerData from './data/box-header-title-data.json'

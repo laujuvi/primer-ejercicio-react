@@ -10,7 +10,7 @@ class BoxAuthor extends React.Component {
     }
     render() {
         return (
-            <span className="box-author">{this.state.boxAuthor} </span>
+            <span className="box-author">Por {this.state.boxAuthor} </span>
         )
     }
 }
